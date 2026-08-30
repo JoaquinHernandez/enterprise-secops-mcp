@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "enterprise-secops": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/absolute/path/to/enterprise-secops-mcp",
+        "run",
+        "secops-mcp"
+      ],
+      "env": {
+        "AIAURA_API_KEY": "YOUR_KEY",
+        "SERVICENOW_INSTANCE": "company.service-now.com",
+        "SPLUNK_HOST": "https://splunk.corp:8089",
+        "SPLUNK_TOKEN": "YOUR_TOKEN"
+      }
+    }
+  }
+}
