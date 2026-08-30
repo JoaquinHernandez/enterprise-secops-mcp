@@ -23,8 +23,7 @@ The **Enterprise SecOps MCP Server** bridges the gap between Large Language Mode
 
 ---
 
-## 🏗️ Architecture
-                   ┌───────────────────────────────┐
+## 🏗️ Architecture ┌───────────────────────────────┐
                    │   LLM Client / MCP Host       │
                    │  (Claude Desktop, Cursor, AI) │
                    └───────────────┬───────────────┘
@@ -48,6 +47,7 @@ The **Enterprise SecOps MCP Server** bridges the gap between Large Language Mode
   │ • Tenable.io / Qualys VM │           │ • Microsoft Teams Alerts │
   │ • EDR Response Engine    │           │ • AiAura Platform API    │
   └──────────────────────────┘           └──────────────────────────┘
+                  
 ---
 
 ## 🎯 Supported Integrations
